@@ -6,14 +6,14 @@ import lombok.Data;
 import java.math.BigDecimal;
 
 @Entity
-@Table(name = "ACCOUNT")
+@Table(name = "account")
 @Data
 public class AccountEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column
-    private Integer productId;
+    private Long Id;
 
     @Column
     private BigDecimal accountBalance;
