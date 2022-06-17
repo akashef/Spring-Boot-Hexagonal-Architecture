@@ -9,7 +9,6 @@ import java.math.BigDecimal;
 @Table(name = "account")
 @Data
 public class AccountEntity {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column
