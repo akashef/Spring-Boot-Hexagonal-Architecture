@@ -1,6 +1,5 @@
 package com.kashef.springboothex.domain.model;
 
-import jakarta.persistence.Entity;
 
 import java.math.BigDecimal;
 
